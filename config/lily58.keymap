@@ -20,11 +20,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp LC(LG(Q))  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PAUSE  &kp C_NEXT                           &none          &none  &none          &none    &none     &kp BACKSPACE
-&kp TAB        &kp Q       &kp W              &kp E            &kp R        &kp T                                &kp Y          &kp U  &kp I          &kp O    &kp P     &kp BACKSPACE
-&kp LSHFT      &kp A       &kp S              &kp D            &kp F        &kp G                                &kp H          &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LCTRL      &kp Z       &kp X              &kp C            &kp V        &kp B         &kp LBKT     &kp RBKT  &kp N          &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp ESC
-                                              &kp LEFT_WIN     &mo 1        &kp LEFT_ALT  &kp SPACE    &kp RET   &kp RIGHT_ALT  &mo 2  &kp RIGHT_WIN
+&kp ESCAPE  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PAUSE  &kp C_NEXT                           &none          &none  &none          &none    &none     &kp BACKSPACE
+&kp TAB     &kp Q       &kp W              &kp E            &kp R        &kp T                                &kp Y          &kp U  &kp I          &kp O    &kp P     &kp BACKSPACE
+&kp LSHFT   &kp A       &kp S              &kp D            &kp F        &kp G                                &kp H          &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LCTRL   &kp Z       &kp X              &kp C            &kp V        &kp B         &kp LBKT     &kp RBKT  &kp N          &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp ESC
+                                           &kp LEFT_WIN     &mo 1        &kp LEFT_ALT  &kp SPACE    &kp RET   &kp RIGHT_ALT  &mo 2  &kp RIGHT_WIN
             >;
         };
 
@@ -37,11 +37,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp ESCAPE  &kp LS(LG(SPACE))  &trans         &trans            &trans                &trans                                   &trans        &trans  &trans        &trans     &trans        &trans
-&trans      &kp F2             &kp F3         &kp F4            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp NUMBER_7  &kp N8  &kp N9        &kp EQUAL  &kp MINUS     &trans
-&trans      &kp EXCL           &kp AT         &kp HASH          &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N0     &kp UP_ARROW  &kp DEL
-&trans      &kp BACKSLASH      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans  &kp N1        &kp N2  &kp N3        &kp LEFT   &kp DOWN      &kp RIGHT
-                                              &trans            &trans                &trans                 &trans    &trans  &trans        &trans  &trans
+&kp LS(LG(ESCAPE))  &kp LS(LG(SPACE))  &trans         &trans            &trans                &trans                                   &trans        &trans  &trans        &trans     &trans        &trans
+&trans              &kp F2             &kp F3         &kp F4            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp NUMBER_7  &kp N8  &kp N9        &kp EQUAL  &kp MINUS     &trans
+&trans              &kp EXCL           &kp AT         &kp HASH          &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N0     &kp UP_ARROW  &kp DEL
+&trans              &kp BACKSLASH      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans  &kp N1        &kp N2  &kp N3        &kp LEFT   &kp DOWN      &kp RIGHT
+                                                      &trans            &trans                &trans                 &trans    &trans  &trans        &trans  &trans
             >;
         };
 
